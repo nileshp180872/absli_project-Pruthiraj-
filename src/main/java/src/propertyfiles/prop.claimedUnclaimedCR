@@ -1,0 +1,26 @@
+browser =chrome
+url =https://lifeinsurancepartnersuat.adityabirlacapital.com/
+
+
+
+
+
+
+==============================================================
+userID =//input[@placeholder='Enter Advisor code / Emp. ID']
+next=//button[normalize-space()='Next']
+Password=//input[@id='password-field']
+Login=//button[@class='btn btn-primary float-right login']
+Rewards=//a[normalize-space()='Rewards']
+ClaimedRewards=//span[normalize-space()='Claimed Rewards']
+ViewMore=(//i[@class='arrow-down'])[1]
+NeftDate=//*[@id="title1-tab"]/div[1]/div/div[1]/span
+BalanceGrossPrizeMony=//*[@id="title1-tab"]/div[1]/div/div[3]/span
+NetPrizeMoney=//*[@id="title1-tab"]/div[1]/div/div[4]/span
+BankACNo=//*[@id="collapseExample0"]/div/div/div/div[1]/p/span[1]
+UTRNumber=//*[@id="collapseExample0"]/div/div/div/div[2]/p/span[1]
+Download=//*[@id="downloaddocumentabp"]
+
+
+
+

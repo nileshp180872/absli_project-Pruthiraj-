@@ -1,0 +1,49 @@
+url=https://pms.tridhyatech.com/login
+browser =chrome
+Name=pruthiraj.j@tridhyatech.com
+Pass=pruthiraj@367
+DescriptionData=Pruthiraj
+Searchbardata=ABSLI
+OutLook=https://outlook.office.com/mail/
+EmilID=Pruthiraj.j@tridhyatech.com
+Password=Sony@<123>
+Nilesh=Nilesh Panchal
+subject=Report of the day at 02-17-2023
+inboxinput=Hi, Nilesh sir Please find today’s work details Refer to the attached file below.
+
+
+
+
+==============================
+IDEmail=email
+Paasword=//input[@id='password']
+Signin=//button[contains(text(),'Sign In')]
+ProjectManagement=//i[@class='fa fa-cubes']
+Task=//p[normalize-space()='My Tasks']
+Management=//p[normalize-space()='Project Management']
+ActionTime=(//i)[36]
+TaskDate=//input[@id='taskDate']
+---------------------------------------
+Date=//td[normalize-space()='22']
+---------------------------------------
+TaskBar=//span[@id='select2-task_list-container']
+ABSLIFeb23=//input[@role='textbox']
+Description=//textarea[@id='taskDescription']
+AddProjectSeve=//input[@value='Save']
+TimeClick=//span[@id='select2-workTimeHours-container']
+hourTimeBox=//input[@role='textbox']
+MinnuteTimeaerrow=//span[@id='select2-workTimeMinutes-container']
+MinnuteTimebox=//input[@role='textbox']
+
+
+========================================================
+OutlookEmilin=//input[@id='i0116']
+LoginNext=//input[@id='idSIButton9']
+OUTPassword=//input[@id='i0118']
+IdentyFY=//div[@data-bind='text: display']
+verifyButton=//input[@id='idSubmit_SAOTCC_Continue']
+YesStaySing=//input[@id='idSIButton9']
+NewMAil=//span[@id='id__187']
+ToMail=//div[@aria-label='To']
+ADDaSubject=//input[@id='TextField438']
+messageBox=//div[@aria-label='Message body, press Alt+F10 to exit']

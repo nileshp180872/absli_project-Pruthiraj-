@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dashboard.Dashboarddd">
+      <class name="RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001">
         <methods>
-          <include name="policyid"/>
-          <include name="globalsearchName"/>
-          <include name="Login"/>
-          <include name="TotalavtiveNOPs"/>
-          <include name="searchMobilenumber"/>
+          <include name="UTRNumber"/>
+          <include name="Download"/>
+          <include name="BankACNo"/>
+          <include name="BalanceGrossPrizeMony"/>
+          <include name="NeftDate"/>
+          <include name="NetPrizeMoney"/>
         </methods>
-      </class> <!-- Dashboard.Dashboarddd -->
+      </class> <!-- RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

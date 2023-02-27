@@ -1,0 +1,26 @@
+browser =chrome
+url =https://lifeinsurancepartnersuat.adityabirlacapital.com/
+ID1=660281
+Pass=Pass@123
+
+
+
+
+
+
+
+
+
+
+=========================================================================
+userID =//input[@placeholder='Enter Advisor code / Emp. ID']
+next=//button[normalize-space()='Next']
+Password=//input[@id='password-field']
+Login=//button[@class='btn btn-primary float-right login']
+DashboardText=(//li[@class='cursor-pointer'][normalize-space()='Dashboard'])[1]
+Search=//img[@alt='d_search_w']
+NOP=(//div[contains(@class,'')])[110]
+Edit=(//button[contains(@data-toggle,'modal')][normalize-space()='Edit'])[2]
+EditNominee=//li[@id='nominee_change']
+SelectPolicyNo=//h5[@class='d-flex align-items-center w-100 justify-content-between']
+
