@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753"/>
+      <class name="TestCasess.HDFC_Login_with_OTP_Journey_LF0438"/>
+      <class name="TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753"/>
+      <class name="TestCasess.HDFC_Login_with_Password_Journey_LF0438"/>
+      <class name="TestCasess.APC_Login_with_Password_Journey_BG8127"/>
+      <class name="TestCasess.DSF_Login_With_Password_Journey_660281"/>
+      <class name="TestCasess.APC_Login_with_OTP_Journey_BG8127"/>
+      <class name="TestCasess.DSF_Login_withOTP_Journey_660281"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

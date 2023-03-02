@@ -20,6 +20,8 @@ Enterotp=exampleInputEmail1
 LoginOTP=//button[@class='btn btn-primary float-right login ']
 
 DashboardText=(//li[@class='cursor-pointer'][normalize-space()='Dashboard'])[1]
+
+Skip=//span[@class='euiButtonEmpty__text']
 ===================================================
 660281
 TotalActiveNOP=(//div[contains(@class,'value')][normalize-space()='538'])[1]

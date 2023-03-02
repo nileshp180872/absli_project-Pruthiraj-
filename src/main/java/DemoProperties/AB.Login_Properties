@@ -14,6 +14,7 @@ Pass=Pass@123
 userID =//input[@placeholder='Enter Advisor code / Emp. ID']
 next=//button[normalize-space()='Next']
 Password=//input[@id='password-field']
+
 Login=//button[@class='btn btn-primary float-right login']
 otp=//span[@id='profile-tab']
 Enterotp=exampleInputEmail1
@@ -22,6 +23,15 @@ LoginOTP=//button[@class='btn btn-primary float-right login ']
 DashboardText=(//li[@class='cursor-pointer'][normalize-space()='Dashboard'])[1]
 
 Skip=//span[@class='euiButtonEmpty__text']
+profileLogo=//p[@id='profile_menu']
+LogOut=//span[@class='cursor-pointer']
+welcometoservicebuddy=//p[@class='h3 text-center']
+managelogo=//li[@class='cursor-pointer']//img[@id='profile_menu_img']
+HDFClogo=//p[@id='profile_menu']
+
+
+
+
 ===================================================
 660281
 TotalActiveNOP=(//div[contains(@class,'value')][normalize-space()='538'])[1]

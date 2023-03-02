@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001">
+      <class name="TestCasess.DSF_Login_withOTP_Journey_660281">
         <methods>
-          <include name="UTRNumber"/>
-          <include name="Download"/>
-          <include name="BankACNo"/>
-          <include name="BalanceGrossPrizeMony"/>
-          <include name="NeftDate"/>
-          <include name="NetPrizeMoney"/>
+          <include name="logout_with_DSF_Advisor"/>
         </methods>
-      </class> <!-- RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001 -->
+      </class> <!-- TestCasess.DSF_Login_withOTP_Journey_660281 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,35 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-27T17:12:50 IST" name="Default suite" finished-at="2023-02-27T17:13:24 IST" duration-ms="34499">
+  <suite started-at="2023-03-02T18:13:17 IST" name="Suite" finished-at="2023-03-02T18:23:27 IST" duration-ms="609387">
     <groups>
     </groups>
-    <test started-at="2023-02-27T17:12:50 IST" name="Default test" finished-at="2023-02-27T17:13:24 IST" duration-ms="34499">
-      <class name="RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001">
-        <test-method signature="BalanceGrossPrizeMony()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:12:50 IST" name="BalanceGrossPrizeMony" finished-at="2023-02-27T17:13:11 IST" duration-ms="21173" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+    <test started-at="2023-03-02T18:13:17 IST" name="Test" finished-at="2023-03-02T18:23:27 IST" duration-ms="609387">
+      <class name="TestCasess.APC_Login_with_Password_Journey_BG8127">
+        <test-method signature="Login_With_Password_APC_advisor()[pri:7, instance:TestCasess.APC_Login_with_Password_Journey_BG8127@21a21c64]" started-at="2023-03-02T18:17:58 IST" name="Login_With_Password_APC_advisor" description=" login With Password APC Advisor channel BG8127 " finished-at="2023-03-02T18:18:19 IST" duration-ms="21517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Password_APC_advisor -->
+        <test-method signature="Login_WthPassword_verify_theDashboard_page()[pri:8, instance:TestCasess.APC_Login_with_Password_Journey_BG8127@21a21c64]" started-at="2023-03-02T18:18:19 IST" name="Login_WthPassword_verify_theDashboard_page" description="verify the dashboard page in APC Advisor channel " finished-at="2023-03-02T18:18:45 IST" duration-ms="26043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WthPassword_verify_theDashboard_page -->
+        <test-method signature="logout_with_Password_APC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText()[pri:9, instance:TestCasess.APC_Login_with_Password_Journey_BG8127@21a21c64]" started-at="2023-03-02T18:18:45 IST" name="logout_with_Password_APC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText" description=" login With Password APC Advisor Channel &amp; click on Logout button  " finished-at="2023-03-02T18:19:30 IST" duration-ms="44975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_Password_APC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText -->
+      </class> <!-- TestCasess.APC_Login_with_Password_Journey_BG8127 -->
+      <class name="TestCasess.DSF_Login_With_Password_Journey_660281">
+        <test-method signature="Login_With_Password_DSF_advisor()[pri:4, instance:TestCasess.DSF_Login_With_Password_Journey_660281@7803bfd]" started-at="2023-03-02T18:19:30 IST" name="Login_With_Password_DSF_advisor" description=" login With Password DSF Advisor channel " finished-at="2023-03-02T18:19:53 IST" duration-ms="22765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Password_DSF_advisor -->
+        <test-method signature="Login_WthPassword_verify_theDashboard_page()[pri:5, instance:TestCasess.DSF_Login_With_Password_Journey_660281@7803bfd]" started-at="2023-03-02T18:19:53 IST" name="Login_WthPassword_verify_theDashboard_page" description="verify the dashboard page in DSF Advisor channel " finished-at="2023-03-02T18:20:15 IST" duration-ms="22140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WthPassword_verify_theDashboard_page -->
+        <test-method signature="logout_with_Password_DSF_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText()[pri:6, instance:TestCasess.DSF_Login_With_Password_Journey_660281@7803bfd]" started-at="2023-03-02T18:20:15 IST" name="logout_with_Password_DSF_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText" description=" login With Password DSF Advisor Channel &amp; click on Logout button  " finished-at="2023-03-02T18:20:48 IST" duration-ms="33018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_Password_DSF_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText -->
+      </class> <!-- TestCasess.DSF_Login_With_Password_Journey_660281 -->
+      <class name="TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753">
+        <test-method signature="Login_With_Password_TPD_Banca_advisor()[pri:22, instance:TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753@386f0da3]" started-at="2023-03-02T18:13:17 IST" name="Login_With_Password_TPD_Banca_advisor" description=" login With Password TPD_Banca Advisor channel LF0438 " finished-at="2023-03-02T18:13:37 IST" duration-ms="19973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Password_TPD_Banca_advisor -->
+        <test-method signature="Login_WthPassword_verify_theDashboard_page()[pri:23, instance:TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753@386f0da3]" started-at="2023-03-02T18:13:38 IST" name="Login_WthPassword_verify_theDashboard_page" description="verify the dashboard page in HDFC Advisor channel " finished-at="2023-03-02T18:14:01 IST" duration-ms="23509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WthPassword_verify_theDashboard_page -->
+        <test-method signature="logout_with_Password_TPD_Banca_Verify_the_Welcome_to_Service_Buddy_LinkText()[pri:24, instance:TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753@386f0da3]" started-at="2023-03-02T18:14:01 IST" name="logout_with_Password_TPD_Banca_Verify_the_Welcome_to_Service_Buddy_LinkText" description=" login With Password TPD_Banca Advisor Channel &amp; click on Logout button  " finished-at="2023-03-02T18:14:28 IST" duration-ms="26553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_Password_TPD_Banca_Verify_the_Welcome_to_Service_Buddy_LinkText -->
+      </class> <!-- TestCasess.TPD_Banca_Login_with_Password_Journey_BS8753 -->
+      <class name="TestCasess.APC_Login_with_OTP_Journey_BG8127">
+        <test-method signature="Login_WithOTP_APC_advisor()[pri:10, instance:TestCasess.APC_Login_with_OTP_Journey_BG8127@42bc14c1]" started-at="2023-03-02T18:20:48 IST" name="Login_WithOTP_APC_advisor" description=" login With OTP APC Advisor BG8127 " finished-at="2023-03-02T18:21:11 IST" duration-ms="23342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WithOTP_APC_advisor -->
+        <test-method signature="APC_Advisor_Dashboard()[pri:11, instance:TestCasess.APC_Login_with_OTP_Journey_BG8127@42bc14c1]" started-at="2023-03-02T18:21:11 IST" name="APC_Advisor_Dashboard" description=" login With OTP APC Advisor portal verify the Dashboadr page " finished-at="2023-03-02T18:21:35 IST" duration-ms="23491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APC_Advisor_Dashboard -->
+        <test-method signature="logout_with_APC_Advisor()[pri:12, instance:TestCasess.APC_Login_with_OTP_Journey_BG8127@42bc14c1]" started-at="2023-03-02T18:21:35 IST" name="logout_with_APC_Advisor" description=" login With OTP APC Advisor portal click on logout button  " finished-at="2023-03-02T18:22:07 IST" duration-ms="32110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_APC_Advisor -->
+      </class> <!-- TestCasess.APC_Login_with_OTP_Journey_BG8127 -->
+      <class name="TestCasess.HDFC_Login_with_Password_Journey_LF0438">
+        <test-method signature="Login_With_Password_HDFC_advisor()[pri:13, instance:TestCasess.HDFC_Login_with_Password_Journey_LF0438@388526fb]" started-at="2023-03-02T18:16:36 IST" name="Login_With_Password_HDFC_advisor" description=" login With Password HDFC Advisor channel LF0438 " finished-at="2023-03-02T18:17:09 IST" duration-ms="33113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Password_HDFC_advisor -->
+        <test-method signature="Login_WthPassword_verify_theDashboard_page()[pri:14, instance:TestCasess.HDFC_Login_with_Password_Journey_LF0438@388526fb]" started-at="2023-03-02T18:17:09 IST" name="Login_WthPassword_verify_theDashboard_page" description="verify the dashboard page in HDFC Advisor channel " finished-at="2023-03-02T18:17:32 IST" duration-ms="23412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WthPassword_verify_theDashboard_page -->
+        <test-method signature="logout_with_Password_HDFC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText()[pri:15, instance:TestCasess.HDFC_Login_with_Password_Journey_LF0438@388526fb]" started-at="2023-03-02T18:17:32 IST" name="logout_with_Password_HDFC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText" description=" login With Password HDFC Advisor Channel &amp; click on Logout button  " finished-at="2023-03-02T18:17:58 IST" duration-ms="25368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_Password_HDFC_Advisor_Verify_the_Welcome_to_Service_Buddy_LinkText -->
+      </class> <!-- TestCasess.HDFC_Login_with_Password_Journey_LF0438 -->
+      <class name="TestCasess.HDFC_Login_with_OTP_Journey_LF0438">
+        <test-method signature="Login_WithOTP_HDFC_advisor()[pri:16, instance:TestCasess.HDFC_Login_with_OTP_Journey_LF0438@6138e79a]" started-at="2023-03-02T18:14:28 IST" name="Login_WithOTP_HDFC_advisor" description=" login With OTP HDFC Advisor LF0438 " finished-at="2023-03-02T18:14:48 IST" duration-ms="20201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WithOTP_HDFC_advisor -->
+        <test-method signature="HDFC_Advisor_Dashboard()[pri:17, instance:TestCasess.HDFC_Login_with_OTP_Journey_LF0438@6138e79a]" started-at="2023-03-02T18:14:48 IST" name="HDFC_Advisor_Dashboard" description=" login With OTP HDFC Advisor portal verify the Dashboadr page " finished-at="2023-03-02T18:15:08 IST" duration-ms="19987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HDFC_Advisor_Dashboard -->
+        <test-method signature="logout_with_HDFC_Advisor()[pri:18, instance:TestCasess.HDFC_Login_with_OTP_Journey_LF0438@6138e79a]" started-at="2023-03-02T18:15:08 IST" name="logout_with_HDFC_Advisor" description=" login With OTP HDFC Advisor portal click on logout button  " finished-at="2023-03-02T18:15:31 IST" duration-ms="23406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_HDFC_Advisor -->
+      </class> <!-- TestCasess.HDFC_Login_with_OTP_Journey_LF0438 -->
+      <class name="TestCasess.DSF_Login_withOTP_Journey_660281">
+        <test-method signature="Login_WithOTP_DSF_advisor()[pri:0, instance:TestCasess.DSF_Login_withOTP_Journey_660281@531f4093]" started-at="2023-03-02T18:22:07 IST" name="Login_WithOTP_DSF_advisor" description=" login With OTP DSF Advisor " finished-at="2023-03-02T18:22:32 IST" duration-ms="25041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_WithOTP_DSF_advisor -->
+        <test-method signature="logout_with_DSF_Advisor()[pri:1, instance:TestCasess.DSF_Login_withOTP_Journey_660281@531f4093]" started-at="2023-03-02T18:22:32 IST" name="logout_with_DSF_Advisor" description=" login With OTP DSF Advisor portal click on logout button  " finished-at="2023-03-02T18:22:57 IST" duration-ms="24459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_with_DSF_Advisor -->
+        <test-method signature="DSF_Advisor_Dashboard()[pri:2, instance:TestCasess.DSF_Login_withOTP_Journey_660281@531f4093]" started-at="2023-03-02T18:22:57 IST" name="DSF_Advisor_Dashboard" description=" login With OTP DSF Advisor portal verify the Dashboadr page " finished-at="2023-03-02T18:23:27 IST" duration-ms="30206" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <a class="text-white text-decoration-none" href="/rnr">...</a> is not clickable at point (915, 108). Other element would receive the click: <h2 class="euiTitle css-8pf57u-euiTitle-xxxs-euiTourHeader__subtitle">...</h2>
-  (Session info: chrome=110.0.5481.105)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='profile-tab']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7682be1ee95001a829e669912465dc89, clickElement {id=50a08175-4c1a-4303-a6b3-d16519b618af}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55378/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7682be1ee95001a829e669912465dc89)] -> xpath: //a[normalize-space()='Rewards']]
-Session ID: 7682be1ee95001a829e669912465dc89]]>
+Command: [80fb6879449c3d06f10521e93213c3e8, findElement {using=xpath, value=//span[@id='profile-tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53673/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fb6879449c3d06f10521e93213c3e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="text-white text-decoration-none" href="/rnr">...</a> is not clickable at point (915, 108). Other element would receive the click: <h2 class="euiTitle css-8pf57u-euiTitle-xxxs-euiTourHeader__subtitle">...</h2>
-  (Session info: chrome=110.0.5481.105)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='profile-tab']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7682be1ee95001a829e669912465dc89, clickElement {id=50a08175-4c1a-4303-a6b3-d16519b618af}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55378/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7682be1ee95001a829e669912465dc89)] -> xpath: //a[normalize-space()='Rewards']]
-Session ID: 7682be1ee95001a829e669912465dc89
+Command: [80fb6879449c3d06f10521e93213c3e8, findElement {using=xpath, value=//span[@id='profile-tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53673/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fb6879449c3d06f10521e93213c3e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -40,9 +132,11 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.BalanceGrossPrizeMony(Claimed_Unclaimed001.java:88)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at TestCasess.DSF_Login_withOTP_Journey_660281.DSF_Advisor_Dashboard(DSF_Login_withOTP_Journey_660281.java:104)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -71,369 +165,25 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BalanceGrossPrizeMony -->
-        <test-method signature="BankACNo()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:13:11 IST" name="BankACNo" finished-at="2023-02-27T17:13:15 IST" duration-ms="4088" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33d90a507ff7f36583e5b95747cf15f7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55407/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 33d90a507ff7f36583e5b95747cf15f7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33d90a507ff7f36583e5b95747cf15f7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55407/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 33d90a507ff7f36583e5b95747cf15f7
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.BankACNo(Claimed_Unclaimed001.java:149)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        </test-method> <!-- DSF_Advisor_Dashboard -->
+      </class> <!-- TestCasess.DSF_Login_withOTP_Journey_660281 -->
+      <class name="TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753">
+        <test-method signature="Login_WithOTP_TPD_Banca_advisor()[pri:19, instance:TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753@2dcd168a]" started-at="2023-03-02T18:15:31 IST" name="Login_WithOTP_TPD_Banca_advisor" description=" login With OTP TPD_Banca Advisor BS8753 " finished-at="2023-03-02T18:15:50 IST" duration-ms="18636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BankACNo -->
-        <test-method signature="Download()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:13:15 IST" name="Download" finished-at="2023-02-27T17:13:17 IST" duration-ms="1560" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [adb05130d9ad987e140df95f927000ee, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55426/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: adb05130d9ad987e140df95f927000ee]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [adb05130d9ad987e140df95f927000ee, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55426/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: adb05130d9ad987e140df95f927000ee
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.Download(Claimed_Unclaimed001.java:218)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        </test-method> <!-- Login_WithOTP_TPD_Banca_advisor -->
+        <test-method signature="TPD_Banca_Dashboard()[pri:20, instance:TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753@2dcd168a]" started-at="2023-03-02T18:15:50 IST" name="TPD_Banca_Dashboard" description=" login With OTP TPD_Banca Advisor portal verify the Dashboadr page " finished-at="2023-03-02T18:16:11 IST" duration-ms="21556" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Download -->
-        <test-method signature="NeftDate()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:13:17 IST" name="NeftDate" finished-at="2023-02-27T17:13:18 IST" duration-ms="1158" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea3730be3a6bf6439d9ad9f5b6e94ab2, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55446/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea3730be3a6bf6439d9ad9f5b6e94ab2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea3730be3a6bf6439d9ad9f5b6e94ab2, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55446/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea3730be3a6bf6439d9ad9f5b6e94ab2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.NeftDate(Claimed_Unclaimed001.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        </test-method> <!-- TPD_Banca_Dashboard -->
+        <test-method signature="logout_with_TPD_Banca_Advisor()[pri:21, instance:TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753@2dcd168a]" started-at="2023-03-02T18:16:11 IST" name="logout_with_TPD_Banca_Advisor" description=" login With OTP TPD_Banca portal click on logout button  " finished-at="2023-03-02T18:16:36 IST" duration-ms="24302" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NeftDate -->
-        <test-method signature="NetPrizeMoney()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:13:18 IST" name="NetPrizeMoney" finished-at="2023-02-27T17:13:20 IST" duration-ms="2507" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a29b911c63e086817f06c2d89247e4, get {url=https://lifeinsurancepartnersuat.adityabirlacapital.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55466/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a29b911c63e086817f06c2d89247e4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a29b911c63e086817f06c2d89247e4, get {url=https://lifeinsurancepartnersuat.adityabirlacapital.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55466/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a29b911c63e086817f06c2d89247e4
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.NetPrizeMoney(Claimed_Unclaimed001.java:115)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-... 28 more
-Caused by: java.net.SocketException: Connection reset
-at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
-at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NetPrizeMoney -->
-        <test-method signature="UTRNumber()[pri:0, instance:RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001@73194df]" started-at="2023-02-27T17:13:20 IST" name="UTRNumber" finished-at="2023-02-27T17:13:24 IST" duration-ms="3858" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4cdf13b3207c1cee0042e41acaa113d1, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55480/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4cdf13b3207c1cee0042e41acaa113d1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4cdf13b3207c1cee0042e41acaa113d1, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Pruthish\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55480/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4cdf13b3207c1cee0042e41acaa113d1
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
-at RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001.UTRNumber(Claimed_Unclaimed001.java:183)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UTRNumber -->
-      </class> <!-- RNR_Claimed_Unclaimed_Sprint01.Claimed_Unclaimed001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- logout_with_TPD_Banca_Advisor -->
+      </class> <!-- TestCasess.TPD_Banca_Login_with_OTP_Journey_BS8753 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
